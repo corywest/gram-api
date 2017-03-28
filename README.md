@@ -8,6 +8,9 @@ This API allows a user to search through an English dictionary and find any anag
 2. At the root of the project, run `bundle install` to load your gems
 3. Once you're done with both of those items, run `rails s` at the root of the project and your API server will fire up
 
+## Running the specs
+   Run `rake test TEST=test/api/anagram_test.rb` at the root of the project
+
 ----
 
 ## How to use the API
